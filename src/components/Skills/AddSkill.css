@@ -1,0 +1,59 @@
+.skill_text {
+  text-align: center;
+  /* margin-left: -3.38vw; */
+}
+.skillAlign {
+  display: flex;
+  justify-content: center;
+}
+.addSkillBox {
+  width: 25vw;
+  height: 5.01vw;
+  background: rgba(145, 145, 145, 0.13);
+  border-radius: 0.32vw;
+  font-weight: 400;
+  font-size: 1.3vw;
+  color: var(--black-color);
+  padding-left: 2.08vw;
+  border-width: 0;
+  outline: none;
+}
+.addSkillBox :focus {
+  outline: none;
+}
+.skillBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.71vw;
+}
+.skillBtn {
+  margin: 0 0.52vw;
+  cursor: pointer;
+}
+
+.cancelSkillBtn {
+  width: 9.24vw;
+  height: 2.99vw;
+  background-color: #ebebeb;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: var(--nero-color);
+  border-radius: 0.71vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancelAddBtn {
+  width: 8.65vw;
+  height: 2.99vw;
+  border-radius: 0.71vw;
+  background-color: var(--purple-color);
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

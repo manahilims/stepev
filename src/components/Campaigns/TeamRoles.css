@@ -1,0 +1,48 @@
+.team_role_data {
+  width: 22.78vw;
+  margin-right: 1.95vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+hr {
+  border: 0;
+}
+.teamRolesTitle {
+  /* width: 22.39vw; */
+  width: calc(100% * (1 / 4) - 10px - 1px);
+  height: 3.77vw;
+  background: var(--white-color);
+  box-shadow: 0px 0.78vw 0.911vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.65vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  flex-grow: 1;
+}
+.alignTeamRoles {
+  display: flex;
+  align-items: center;
+}
+.alignTeamRoles p {
+  font-weight: 500;
+  font-size: 0.911vw;
+  color: var(--nero-color);
+}
+.checkImg {
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-left: 1.3vw;
+  margin-right: 0.91vw;
+}
+.arrow {
+  width: 0.84vw;
+  margin-right: 0.97vw;
+}
+.roleInfo {
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: rgba(35, 35, 35, 0.75);
+  margin: 0 1.56vw;
+  margin-top: 1.43vw;
+}

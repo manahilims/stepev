@@ -1,0 +1,37 @@
+.categoryHeader {
+  display: flex;
+  align-items: center;
+}
+.uploadImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.uploadImg p {
+  font-size: 0.7vw;
+  text-align: center;
+}
+.alignUpload {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5vw;
+  margin-top: 0.5vw;
+  margin-bottom: -3vw;
+}
+.alignUpload p {
+  font-size: 1vw;
+}
+.disableBtn {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.uploadIcon {
+  font-size: 1.7vw;
+}
+.alertText {
+  font-size: 1vw;
+  text-align: center;
+  color: var(--red-color);
+}

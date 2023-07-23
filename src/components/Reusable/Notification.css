@@ -1,0 +1,15 @@
+.u_notification {
+  width: 6.7vw;
+  height: 2.66vw;
+  border-radius: 3.38vw;
+  background-color: var(--nero-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.84vw;
+}
+.u_notification p {
+  font-weight: 500;
+  font-size: 1.04vw;
+  color: var(--white-color);
+}

@@ -1,0 +1,7 @@
+.earningsSearchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.55vw;
+  margin: 2.73vw 0;
+}

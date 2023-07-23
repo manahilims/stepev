@@ -1,0 +1,29 @@
+.notifParent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5.01vw;
+}
+.notifMsg {
+  display: flex;
+  align-items: center;
+}
+.notifMsg img {
+  width: 1.49vw;
+  margin-right: 1.49vw;
+}
+.notifMsg p {
+  font-weight: 500;
+  font-size: 1.17vw;
+  color: var(--nero-color);
+}
+.notifMsg a {
+  color: #ff7f50;
+  cursor: pointer;
+}
+.notifTime {
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: rgba(35, 35, 35, 0.5);
+  margin-right: 5.2vw;
+}

@@ -1,0 +1,148 @@
+.campaignsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.55vw;
+  margin: 2.73vw 0;
+}
+
+.campaignsFilter {
+  width: 12.36vw;
+  height: 3.9vw;
+  background: var(--nero-color);
+  box-shadow: 0px 0.26vw 1.23vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.65vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.campaignsFilter a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: var(--white-color);
+}
+.filterImg {
+  width: 1.04vw;
+  margin-right: 0.65vw;
+}
+/* Table */
+.campaignTable {
+  margin-left: 3.38vw;
+  width: 95%;
+  border-collapse: collapse;
+}
+.campaignTable th {
+  font-size: 1.17vw;
+  font-weight: 400;
+  color: var(--nero-color);
+
+  /* border-bottom: 1px solid black; */
+}
+.campaignTh {
+  padding-left: 1.95vw;
+}
+.campaignTh div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -0.65vw;
+}
+.campaignTh img {
+  width: 2.47vw;
+  border-radius: 50%;
+  margin-right: 0.91vw;
+}
+.campaignTh p {
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: var(--nero-color);
+  /* font-family: "DM sans"; */
+  padding-right: 2.6vw;
+}
+.campaign_action_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1vw;
+}
+.campaign_action_btns p {
+  font-size: 0.84vw;
+  font-weight: 400;
+}
+.campaign_action_btns img {
+  height: 1.3vw;
+  margin-left: 3.25vw;
+}
+.campaign_action_btn1 {
+  width: 7.94vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  border-radius: 0.32vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 0.58vw;
+}
+.campaign_action_btn2 {
+  width: 7.22vw;
+  height: 1.75vw;
+  padding: 0.32vw 1.69vw;
+  border-radius: 0.32vw;
+  background-color: var(--campaignBtn-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.campaignDull {
+  font-weight: 400;
+  font-size: 0.84vw;
+  opacity: 0.5;
+  color: var(--nero-color);
+}
+.campaignAdmin {
+  font-weight: 500;
+  font-size: 0.84vw;
+  color: var(--purple-color);
+  padding-right: 1.95vw;
+}
+.campaignDate {
+  padding-right: 6.51vw;
+}
+
+/* Pagination */
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3.25vw;
+  margin-top: 3.25vw;
+}
+.paginationContainer p {
+  font-weight: 500;
+  font-size: 0.91vw;
+}
+.paginationContainer img {
+  cursor: pointer;
+  width: 0.81vw;
+}
+.currentPage {
+  margin: 0 0.65vw;
+}
+.totalPages {
+  margin-left: 0.846vw;
+}
+.currentPageColor {
+  opacity: 0.5;
+}
+
+.validBtn {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

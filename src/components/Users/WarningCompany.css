@@ -1,0 +1,42 @@
+.warningCompany {
+  display: flex;
+  align-items: center;
+  margin-right: -2.6vw;
+}
+.warningCompanyImg {
+  width: 3.51vw;
+  border-radius: 50%;
+}
+.warningCompanyImg img {
+  width: 100%;
+}
+.warningCompanyName {
+  font-weight: 700;
+  font-size: 1.3vw;
+  color: var(--darkBlack-color);
+  margin-left: 0.71vw;
+  margin-bottom: -0.78vw;
+}
+.warningCompanyEmail {
+  font-weight: 400;
+  font-size: 0.91vw;
+  color: rgba(152, 152, 152, 0.6);
+  margin-left: 0.78vw;
+}
+.strikes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 10px; */
+  width: 9.76vw;
+}
+.strikes img {
+  width: 1.04vw;
+  height: 1.04vw;
+}
+.strikes p {
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: var(--nero-color);
+  margin-left: 0.32vw;
+}

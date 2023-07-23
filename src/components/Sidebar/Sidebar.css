@@ -1,0 +1,40 @@
+.sidebar {
+  width: 100%;
+  height: 100vh;
+}
+.sidebarContainer {
+  min-height: 95vh;
+  width: 100%;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.45vw;
+}
+.logo {
+  min-width: 7.81vw;
+  max-width: 50px;
+}
+.dottedAlign {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5vw;
+}
+.dottedImg {
+  width: 14vw;
+  min-width: 30px;
+}
+.logoutSideBtn {
+  margin-top: 9.7vw;
+}
+.imgCenter {
+  margin: 0 auto;
+}
+.link {
+  text-decoration: none;
+}
+.link a {
+  text-decoration: none;
+}
+.removeUnderline {
+  text-decoration: none;
+}

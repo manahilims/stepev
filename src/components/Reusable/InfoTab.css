@@ -1,0 +1,26 @@
+.infoTabAlign {
+  width: 25vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.3vw;
+}
+.infoTab {
+  display: flex;
+  /* margin-top: -20px; */
+}
+.infoTab img {
+  width: 1vw;
+  margin-right: 1.17vw;
+}
+.infoTab p {
+  font-weight: 400;
+  font-size: 1vw;
+  color: var(--black-color);
+  opacity: 0.5;
+  margin-left: 1.17vw;
+  margin: 0;
+  /* margin-left: 18px; */
+  padding: 0;
+}
+@media screen and (max-width) {
+}

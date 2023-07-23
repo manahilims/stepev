@@ -1,0 +1,23 @@
+.client_info {
+  display: flex;
+  align-items: center;
+}
+.profile_picture {
+  width: 2.47vw;
+  border-radius: 50%;
+  margin-right: 0.91vw;
+}
+.client_name {
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: var(--darkBlack-color);
+  margin-bottom: -0.71vw;
+  font-family: "DM sans";
+}
+.client_email {
+  font-size: 0.846vw;
+  font-weight: 400;
+  color: var(--darkBlack-color);
+  opacity: 0.6;
+  font-family: "DM sans";
+}

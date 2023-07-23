@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+:root {
+  --nero-color: #232323;
+  --black-color: #222222;
+  --lightGrey-color: #eeeeee;
+  --purple-color: #8489fc;
+  --white-color: #ffffff;
+  --grey-color: #aca9a9;
+  --lightBlue-color: #566d7f;
+  --red-color: #be0000;
+  --brightRed-color: #f90000;
+  --green-color: #77b255;
+  --darkBlack-color: #282828;
+  --redLight-color: #ff0000;
+  --cream-color: #ebeff3;
+  --campaignBtn-color: #e1e1e1;
+  --creamLight-color: #ededed;
+  --offwhite-color: #efefef;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fcfbfc;
+}
+
+code {
+  font-family: "DM Sans", sans-serif;
+}

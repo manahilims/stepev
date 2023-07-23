@@ -1,0 +1,70 @@
+.userCampaignTable {
+  width: 80%;
+  margin: 0 3.38vw;
+  border-collapse: collapse;
+  font-family: "DM sans";
+}
+thead tr {
+  border-bottom: 0.065vw solid rgba(35, 35, 35, 0.15);
+  border-top: 0.065vw solid rgba(35, 35, 35, 0.15);
+}
+
+.campaignsThead th {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.17vw;
+  color: var(--nero-color);
+}
+
+.Td {
+  font-size: 0.846vw;
+  opacity: 0.5;
+  color: var(--nero-color);
+}
+th {
+  padding: 1.56vw 0;
+}
+.userCampaignTable td {
+  padding-top: 2.92vw;
+}
+.user_name {
+  font-weight: 400;
+  color: var(--nero-color);
+  font-size: 1.04vw;
+  display: flex;
+  align-items: center;
+}
+.user_light {
+  font-weight: 400;
+  font-size: 0.846vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+}
+.user_bold {
+  font-size: 0.846vw;
+  font-weight: 500;
+  color: var(--purple-color);
+}
+.viewCampaignsBtn {
+  width: 7.94vw;
+  height: 1.75vw;
+  padding: 0.325vw 0.911vw;
+  border-radius: 0.32vw;
+  background-color: var(--purple-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewCampaignsBtn a {
+  font-size: 0.846vw;
+  text-decoration: none;
+  color: var(--white-color);
+  font-weight: 400;
+}
+.startupownerImage {
+  width: 2.47vw;
+  height: 2.47vw;
+  margin-right: 0.91vw;
+  border-radius: 50%;
+}

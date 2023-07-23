@@ -1,0 +1,23 @@
+.campaignInfo {
+  padding-left: 3.38vw;
+}
+.campaignInfoTitle {
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: var(--nero-color);
+  margin-bottom: 0.58vw;
+}
+.campaignInfoData {
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #8e8e8e;
+  margin-bottom: 1.82vw;
+}
+.campaignBold {
+  font-weight: 700;
+  font-size: 1.56vw;
+  color: var(--purple-color);
+  margin-bottom: 1.82vw;
+  padding: 0;
+  margin-top: 0.97vw;
+}

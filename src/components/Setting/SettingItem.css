@@ -1,0 +1,29 @@
+.alignSettingItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.2vw 0;
+}
+.alignSettingItem p {
+  font-weight: 400;
+  font-size: 1.32vw;
+  color: #8e8e8e;
+  margin-left: 3.2vw;
+}
+.alignSettingItem img {
+  width: 1.56vw;
+  margin-right: 4.2vw;
+}
+
+.alignInputBox {
+  margin-bottom: 1vw;
+}
+.changeBtns {
+  margin-top: 1.3vw;
+}
+
+.settingWarning {
+  font-size: 0.8vw;
+  text-align: center;
+  color: var(--red-color);
+}

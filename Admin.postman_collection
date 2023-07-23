@@ -1,0 +1,1138 @@
+{
+	"info": {
+		"_postman_id": "13d48f98-ad80-4acc-b285-0ff9f14a4090",
+		"name": "STEPEV Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17367316"
+	},
+	"item": [
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"admin@gmail.com\",\r\n    \"password\":\"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/auth/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Local Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\":\"abdullah@gmail.com\",\r\n    \"password\":\"12345678\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/auth/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "content-security-policy",
+									"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+								},
+								{
+									"key": "cross-origin-embedder-policy",
+									"value": "require-corp"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-resource-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "x-dns-prefetch-control",
+									"value": "off"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "strict-transport-security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "origin-agent-cluster",
+									"value": "?1"
+								},
+								{
+									"key": "x-permitted-cross-domain-policies",
+									"value": "none"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "no-referrer"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "0"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "content-length",
+									"value": "717"
+								},
+								{
+									"key": "etag",
+									"value": "W/\"2cd-vwaBDRtFswrNLSJScv02wyFgvTk\""
+								},
+								{
+									"key": "date",
+									"value": "Mon, 30 Jan 2023 20:17:34 GMT"
+								},
+								{
+									"key": "x-envoy-upstream-service-time",
+									"value": "355"
+								},
+								{
+									"key": "server",
+									"value": "railway"
+								},
+								{
+									"key": "connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"staus\": \"OK\",\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q4MjRlYjRkYTlkNTAwMWU3NThkZTIiLCJyb2xlIjoiRnJlZWxhbmNlciIsImVtYWlsIjoiYWJkdWxsYWhAZ21haWwuY29tIiwiaWF0IjoxNjc1MTA5ODU0fQ.VuSYIlec90GTPGDiVVQ2syt-IFAuFAOe_k-czA4VEqE\",\n    \"refreshToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q4MjRlYjRkYTlkNTAwMWU3NThkZTIiLCJyb2xlIjoiRnJlZWxhbmNlciIsImVtYWlsIjoiYWJkdWxsYWhAZ21haWwuY29tIiwiaWF0IjoxNjc1MTA5ODU0fQ.DDYhn44CuO9M-pdi-pHHx_udcBkD1BaB9MNZ1vOXDEo\",\n    \"user\": {\n        \"email\": \"abdullah@gmail.com\",\n        \"name\": \"Abdullah\",\n        \"avatar\": \"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541\",\n        \"phoneNumber\": \"03229887665\",\n        \"role\": \"Freelancer\",\n        \"authtype\": \"local\"\n    }\n}"
+						},
+						{
+							"name": "Local Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\":\"usman@gmail.com\",\r\n    \"password\":\"12345678\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/auth/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "content-security-policy",
+									"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+								},
+								{
+									"key": "cross-origin-embedder-policy",
+									"value": "require-corp"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-resource-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "x-dns-prefetch-control",
+									"value": "off"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "strict-transport-security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "origin-agent-cluster",
+									"value": "?1"
+								},
+								{
+									"key": "x-permitted-cross-domain-policies",
+									"value": "none"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "no-referrer"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "0"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "content-length",
+									"value": "719"
+								},
+								{
+									"key": "etag",
+									"value": "W/\"2cf-YFFzCvjAh6iW9UdzzTpGUvIuRdM\""
+								},
+								{
+									"key": "date",
+									"value": "Mon, 30 Jan 2023 20:33:27 GMT"
+								},
+								{
+									"key": "x-envoy-upstream-service-time",
+									"value": "350"
+								},
+								{
+									"key": "server",
+									"value": "railway"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"staus\": \"OK\",\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q4Mjk2M2Q2MzlkOTAwMWUxOTllOGYiLCJyb2xlIjoiU3RhcnR1cCBPd25lciIsImVtYWlsIjoidXNtYW5AZ21haWwuY29tIiwiaWF0IjoxNjc1MTEwODA3fQ.8PbjThH_JcuOSBd2lL29mDExLSuSyiBEKGv0_HECJq8\",\n    \"refreshToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q4Mjk2M2Q2MzlkOTAwMWUxOTllOGYiLCJyb2xlIjoiU3RhcnR1cCBPd25lciIsImVtYWlsIjoidXNtYW5AZ21haWwuY29tIiwiaWF0IjoxNjc1MTEwODA3fQ.XpwvEmjCr6adQKCDoSoJUI0o65QA3wL-rAETLzUJocU\",\n    \"user\": {\n        \"email\": \"usman@gmail.com\",\n        \"name\": \"Usman Khan\",\n        \"avatar\": \"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541\",\n        \"phoneNumber\": \"03229887665\",\n        \"role\": \"Startup Owner\",\n        \"authtype\": \"local\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "GET Dashboard Data",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/admin/getDashboard",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"getDashboard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET All Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/admin/getUsers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"getUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Startups",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/admin/getStartups",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"getStartups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get admins wallet details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/admin/wallet",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"wallet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "admin get all warnings",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/warnings/all",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"warnings",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all withdrawl requests from freelancers",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"page\":1,\r\n    \"limit\":10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/withdrawlRequests",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"withdrawlRequests"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all app Earnings",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"page\":1,\r\n    \"limit\":10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/appEarnings",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"appEarnings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get withdrawl history",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"page\":1,\r\n    \"limit\":10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/withdrawlHistory",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"withdrawlHistory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Suspend or Unsuspend a user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\":\"\",\r\n    \"status\":\"Suspend\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/suspend/user",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"suspend",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "freelancerProfile Data (Profile Screen of Freelancer)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"freelancerId\":\"63e27e1dbd0ec6001e3b0dd8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/freelancerProfile/data",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"freelancerProfile",
+								"data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "freelancerProfile Earnings(Profile Screen of Freelancer)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"freelancerId\":\"63e27e1dbd0ec6001e3b0dd8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/freelancerProfile/earnings",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"freelancerProfile",
+								"earnings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "freelancerProfile Warnings(Profile Screen of Freelancer)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"freelancerId\":\"63e27e1dbd0ec6001e3b0dd8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/freelancerProfile/warnings",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"freelancerProfile",
+								"warnings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "freelancerProfile Campaigns(Profile Screen of Freelancer)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"freelancerId\":\"63e27e1dbd0ec6001e3b0dd8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/freelancerProfile/campaigns",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"freelancerProfile",
+								"campaigns"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Startup Status",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{adminToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startupid\":\"63e28e276fc91d001e00404c\",\r\n    \"status\":\"Unapproved\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/changeStartupStatus",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"changeStartupStatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/user/delete",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"user",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Email Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{freelancertoken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"abdullah@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/update/email",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"update",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update password Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{freelancertoken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":\"12345678\",\r\n    \"confirmPassword\":\"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/update/password",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"update",
+								"password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "turn on or off notification Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{freelancertoken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"notification\":false\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/notification",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"notification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update phone Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{freelancertoken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phoneNumber\":\"647646564554\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/update/phone",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"update",
+								"phone"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "release payment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amount\":10,\r\n    \"userId\":\"\",\r\n    \"transactionId\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/stripe/checkout-connected-destination",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"stripe",
+								"checkout-connected-destination"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pause payment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"transactionId\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/admin/withdraw/pause",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"admin",
+								"withdraw",
+								"pause"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FILE UPLOADS Copy",
+			"item": [
+				{
+					"name": "Get Image",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://stepdev.up.railway.app/media/getImage/120ec686573fc92f313aa3221a672c44.jpg",
+							"protocol": "http",
+							"host": [
+								"stepdev",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"media",
+								"getImage",
+								"120ec686573fc92f313aa3221a672c44.jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get File",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/media/getFile/658e4e7efb34277e3d65c04b077cbf90.pdf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"media",
+								"getFile",
+								"658e4e7efb34277e3d65c04b077cbf90.pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload File (Image)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Kirei Kotomine/Desktop/testImage.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/media/uploadfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"media",
+								"uploadfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload File (PDF)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Kirei Kotomine/Desktop/StudentsAndGroups.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/media/uploadfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"media",
+								"uploadfile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "adminToken",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2UyYTVlZjhkMDQ3YjAwMWUwNWI1Y2UiLCJyb2xlIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTY3NTk2NzM5MX0.xLaQxiEQ4TrPQMxWcCgQrY-gFiJNq_-AbA73GfkzlDo",
+			"type": "string"
+		},
+		{
+			"key": "URL",
+			"value": "https://stepdev.up.railway.app",
+			"type": "string"
+		}
+	]
+}

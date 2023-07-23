@@ -1,0 +1,17 @@
+.warning {
+  width: 1.1vw;
+  margin-left: 0.585vw;
+  margin-right: 0.325vw;
+}
+.strikesContainer p {
+  font-weight: 400;
+  font-size: 0.846vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+}
+.strikesContainer {
+  display: flex;
+  flex-direction: row;
+}

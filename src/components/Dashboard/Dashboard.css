@@ -1,0 +1,13 @@
+.dashboardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.dashboardChild1 {
+  width: 20%;
+}
+.dashboardChild2 {
+  width: 80%;
+}
+.fixNavbar {
+}

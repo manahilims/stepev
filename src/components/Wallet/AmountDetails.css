@@ -1,0 +1,30 @@
+.withdrawalAmount {
+  display: flex;
+  align-items: center;
+}
+.withdrawalAmountImg {
+  height: 1.17vw;
+  width: 1.17vw;
+  border-radius: 0.32vw;
+  background-color: var(--purple-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawalAmountImg img {
+  width: 0.65vw;
+  height: 0.65vw;
+}
+.withdrawalAmount p {
+  font-size: 0.78vw;
+  font-weight: 400;
+  color: var(--nero-color);
+  opacity: 0.6;
+  margin-left: 0.39vw;
+}
+.detailAmount {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: var(--nero-color);
+  margin: 0;
+}

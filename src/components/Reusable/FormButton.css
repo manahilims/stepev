@@ -1,0 +1,17 @@
+.formButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.32vw 0.91vw;
+  width: 6.38vw;
+  height: 1.75vw;
+  border-radius: 0.325vw;
+  background-color: var(--purple-color);
+  cursor: pointer;
+}
+.formButton a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 0.84vw;
+}

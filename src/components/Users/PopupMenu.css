@@ -1,0 +1,47 @@
+.dots {
+  height: 1.17vw;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menuPopup {
+  position: absolute;
+  margin-left: -11.06vw;
+  margin-top: -0.97vw;
+  width: 10.8vw;
+  height: 4.68vw;
+  border-radius: 0.26vw;
+  background-color: var(--nero-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menuPopup p {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--white-color);
+  margin-left: 0.97vw !important;
+  padding: 0;
+  margin: 0;
+}
+.menuPopup img {
+  height: 0.65vw;
+  width: 1.1vw;
+  margin-right: 0.97vw;
+}
+.menuPopup a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.popupLine {
+  border: 0.03vw solid #7b8f9f;
+  width: 98%;
+  margin: 0.65vw 0;
+  padding: 0;
+}

@@ -1,0 +1,76 @@
+.containerNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.81vw;
+  margin-bottom: 2.08vw;
+  padding: 0 5.2vw;
+}
+hr {
+  width: 71vw;
+  border-top: 0.03vw solid rgba(35, 35, 35, 0.15);
+  margin-left: 3.38vw;
+}
+.vl {
+  height: 3.5vw;
+  border-left: 0.03vw solid rgba(35, 35, 35, 0.15);
+
+  margin: 0 2.08vw;
+}
+
+.alighNavData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.containerNavbar p {
+  font-weight: 500;
+  font-size: 1.1vw;
+  color: var(--nero-color);
+}
+.date {
+  width: 2vw;
+}
+.dateDay {
+  margin-left: 1.23vw;
+}
+.bellIcon {
+  width: 3.38vw;
+  height: 3.38vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px dotted black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.notif {
+  width: 0.58vw;
+  height: 0.58vw;
+  border-radius: 50%;
+  background-color: var(--purple-color);
+  position: absolute;
+  top: 18px;
+  left: 40.35%;
+}
+.searchBar {
+  width: 26.6vw;
+  height: 3.8vw;
+  border-radius: 0.65vw;
+  background-color: var(--white-color);
+  border: none;
+  box-shadow: 0px 0.26vw 1.23vw rgba(0, 0, 0, 0.04);
+  font-family: "DM Sans", sans-serif;
+  padding: 0 1.3vw;
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: var(--nero-color);
+  opacity: 0.6;
+}
+.profilePicture {
+  width: 3.38vw;
+  height: 3.38vw;
+  border-radius: 50%;
+  margin: 0 1.3vw;
+}

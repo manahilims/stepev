@@ -1,0 +1,9 @@
+.teamHeader {
+  display: flex;
+  align-items: center;
+}
+.teamRemovalSearchBox {
+  margin-left: 4.55vw;
+  margin-top: 2.27vw;
+  margin-bottom: 2.27vw;
+}

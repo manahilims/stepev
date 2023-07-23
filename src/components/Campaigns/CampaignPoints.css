@@ -1,0 +1,33 @@
+.blackBox {
+  width: 4.29vw;
+  height: 1.56vw;
+  /* padding: 0.13vw 0.78vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--nero-color);
+  border-radius: 0.32vw;
+  margin-left: 3.38vw;
+}
+.blackBox div {
+  width: 0.32vw;
+  height: 0.32vw;
+  border-radius: 50%;
+  background-color: var(--purple-color);
+}
+.blackBox p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: var(--white-color);
+  margin-left: 0.45vw;
+  padding: 0;
+}
+.bgBlackBox {
+  width: 7.42vw;
+}
+.xlBox {
+  width: 10.54vw;
+}
+.mdBox {
+  width: 6.9vw;
+}

@@ -1,0 +1,118 @@
+.handWave {
+  max-width: 5.03vw;
+  min-width: 60px;
+  display: block;
+  margin: 0 auto;
+  display: block;
+  padding-top: 120.32px;
+}
+.textLogin {
+  text-align: center;
+  line-height: 5px;
+  margin-bottom: 79px;
+}
+.greetingText {
+  font-size: 2.9vw;
+  font-weight: 700;
+  color: var(--nero-color);
+}
+.loginInfo {
+  font-weight: 500;
+  font-size: 1.7vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  width: 32.4vw;
+  height: 4.88vw;
+  border-radius: 0.651vw;
+  background-color: var(--lightGrey-color);
+  border-width: 0;
+  padding: 0 1.3vw;
+  font-size: 1.3vw;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: var(--nero-color);
+  margin-bottom: 24px;
+}
+.formInput:focus {
+  outline: none;
+}
+.formInput::placeholder {
+  color: var(--grey-color);
+  font-weight: 400;
+}
+.btnLogin {
+  width: 32.4vw;
+  padding: 0 1.3vw;
+  height: 4.88vw;
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--purple-color);
+  border-radius: 0.651vw;
+  font-weight: 500;
+  font-size: 1.43vw;
+  color: var(--white-color);
+  margin-top: 30px;
+}
+.btnForget {
+  text-decoration: none;
+  color: var(--nero-color);
+  font-weight: 500;
+  font-size: 1.17vw;
+  margin-top: 24px;
+  margin-bottom: 188px;
+}
+.ellipse {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 26.04vw;
+}
+.copyright {
+  font-weight: 400;
+  font-size: 1.17vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+  font-family: "DM Sans", sans-serif;
+  /* margin-top: 188px; */
+}
+@media screen and (min-width: 1920px) {
+  .ellipse {
+    bottom: -20%;
+    /* display: none; */
+  }
+}
+@media screen and (max-width: 840px) {
+  .greetingText {
+    font-size: 2rem;
+    color: var(--nero-color);
+  }
+  .loginInfo {
+    font-size: 1.2rem;
+  }
+  .formInput {
+    width: 24rem;
+    height: 3.7rem;
+    font-size: 1.1rem;
+  }
+  .btnLogin {
+    width: 24rem;
+    height: 3.7rem;
+    font-size: 1.1rem;
+  }
+  .btnForget {
+    font-size: 1rem;
+  }
+}

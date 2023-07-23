@@ -1,0 +1,110 @@
+.wallet {
+  display: flex;
+  width: 100%;
+}
+.walletChild1 {
+  width: 68%;
+}
+.walletChild2 {
+  width: 30%;
+  padding-top: 0.846vw;
+}
+.walletCards {
+  display: flex;
+  margin-left: 3.38vw;
+  margin-top: 3.45vw;
+}
+.walletTitle {
+  margin-top: 2.08vw;
+}
+.walletDetails {
+  display: flex;
+  /* align-items: center; */
+  margin-left: 3.38vw;
+}
+.withdraw_amount {
+  width: 19.2vw;
+  height: 11.9vw;
+  border-radius: 0.32vw;
+  background-color: var(--purple-color);
+  box-shadow: 0px 0.26vw 4.62vw rgba(0, 0, 0, 0.04);
+  margin-left: 1.3vw;
+}
+.withdrawAmountTitle {
+  color: var(--white-color);
+  font-size: 0.84vw;
+  font-weight: 400;
+  font-family: "DM sans";
+  letter-spacing: 0.03vw;
+  margin-left: 1.43vw;
+  margin-top: 1.23vw;
+}
+.alignWithdraw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawSettings {
+  display: flex;
+  width: 16.27vw;
+  justify-content: space-between;
+  margin-bottom: 1.17vw;
+}
+.setting_child {
+  width: 7.68vw;
+  height: 2.47vw;
+  background-color: rgba(255, 255, 255, 0.29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setting_child p {
+  font-size: 0.71vw;
+  font-weight: 400;
+  color: var(--white-color);
+}
+.withdrawBtn {
+  width: 16.27vw;
+  height: 2.47vw;
+  background-color: var(--white-color);
+  color: var(--purple-color);
+  font-size: 0.78vw;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* Table */
+.walletTable {
+  width: 100%;
+}
+.walletTable th {
+  font-size: 0.911vw;
+  font-weight: 400;
+  color: var(--nero-color);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.withdrawId {
+  font-size: 0.911vw;
+  font-weight: 500;
+  color: var(--nero-color);
+}
+.withdrawAmount {
+  font-weight: 700;
+  font-size: 0.97vw;
+  color: var(--nero-color);
+}
+.withdrawDate {
+  font-weight: 400;
+  font-size: 0.911vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+}
+.walletTable td {
+  padding-top: 1.43vw;
+  /* padding-bottom: ; */
+}

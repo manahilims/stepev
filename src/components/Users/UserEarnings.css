@@ -1,0 +1,194 @@
+.parentCard {
+  display: flex;
+  margin-left: 3.38vw;
+}
+.userRecord {
+  display: flex;
+  margin-left: 3.38vw;
+}
+.userRecordTitle {
+  font-size: 1.56vw;
+  font-weight: 400;
+  color: var(--darkBlack-color);
+}
+.user_earning {
+  width: 19.53vw;
+  height: 12.3vw;
+  background-color: var(--white-color);
+  box-shadow: 0px 2.79vw 3.05vw -0.13vw rgba(0, 0, 0, 0.01);
+  border-radius: 0.71vw;
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 1.95vw;
+  padding-right: 3.12vw;
+}
+.user_earn {
+  font-weight: 700;
+  font-size: 2.34vw;
+  color: var(--black-color);
+  margin-right: 7px;
+}
+.earning_currency {
+  font-size: 0.97vw;
+  font-weight: 700;
+  color: var(--black-color);
+}
+.user_percent {
+  font-size: 1.04vw;
+}
+
+.user_percent_price {
+  color: var(--purple-color);
+  font-weight: 700;
+  margin-right: 1.822vw;
+}
+.user_percent_percent {
+  color: var(--green-color);
+  font-weight: 600;
+}
+.user_currency_btn {
+  width: 5.2vw;
+  height: 2.27vw;
+  background-color: var(--black-color);
+  border-radius: 0.45vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.04vw;
+}
+.user_currency_btn p {
+  color: var(--white-color);
+  font-size: 1.04vw;
+  font-weight: 700;
+}
+.user_currency_btn img {
+  width: 1.04vw;
+}
+.wallet_img {
+  width: 13.73vw;
+}
+/* Record */
+.user_record {
+  border-radius: 0.65vw;
+  width: 20.7vw;
+  background: #ffffff;
+  padding: 0 1.43vw;
+  box-shadow: 0px 2.79vw 3.05vw -0.13vw rgba(0, 0, 0, 0.01);
+}
+.user_record_border {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 0.03vw solid #afafaf45;
+}
+
+.client_name {
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: var(--darkBlack-color);
+  margin-bottom: -0.71vw;
+  font-family: "DM sans";
+}
+.client_email {
+  font-size: 0.84vw;
+  font-weight: 400;
+  color: var(--darkBlack-color);
+  opacity: 0.6;
+  font-family: "DM sans";
+}
+.px {
+  margin-bottom: 0.06vw;
+  text-align: right;
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: var(--darkBlack-color);
+}
+.client_status {
+  width: 0.65vw;
+  height: 0.65vw;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 0.45vw;
+}
+.client_payment_status {
+  display: flex;
+  align-items: center;
+}
+/* Pending Payments */
+.user_pending_payments {
+  width: 19.5vw;
+  padding-left: 1.04vw;
+  padding-right: 1.3vw;
+  padding-top: 1.04vw;
+  padding-bottom: 7px;
+  background: #ffffff;
+  box-shadow: 0px 2.9vw 3.05vw -0.13vw rgba(0, 0, 0, 0.01);
+  border-radius: 11px;
+}
+.pending_client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pending_amount_currency {
+  font-size: 0.97vw;
+  font-weight: 400;
+  color: var(--purple-color);
+  margin-right: 0.26vw;
+}
+.pending_amount_amount {
+  font-size: 1.56vw;
+  font-weight: 700;
+  color: var(--purple-color);
+}
+.pending_detail {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: #8e8e8e;
+  width: 18.81vw;
+}
+.btns_date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment_btns {
+  display: flex;
+}
+.payment_pause_btn {
+  width: 4.16vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  border-radius: 0.32vw;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.payment_pause_btn p {
+  color: var(--nero-color);
+  font-weight: 400;
+  font-size: 0.846vw;
+}
+.payment_release_btn {
+  width: 4.81vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  border-radius: 0.32vw;
+  background-color: var(--purple-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.45vw;
+  cursor: pointer;
+}
+.payment_release_btn p {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--white-color);
+}
+.user_record_align {
+  margin-right: 1.3vw;
+}

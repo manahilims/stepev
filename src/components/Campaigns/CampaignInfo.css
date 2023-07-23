@@ -1,0 +1,81 @@
+.campaignVideo {
+  width: 27.6vw;
+  height: 16.6vw;
+  filter: drop-shadow(0px 0.06vw 0.65vw rgba(0, 0, 0, 0.15));
+  background-color: rgba(128, 128, 128, 0.6);
+  border-radius: 0.65vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5.85vw;
+  margin-left: 3.38vw;
+}
+.campaignVideo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.65vw;
+}
+.campaignTeam {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3.38vw;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.campaingTeamMembersRole {
+  display: flex;
+  margin-left: 3.38vw;
+  margin-top: 1.95vw;
+  padding-bottom: 3.25vw;
+}
+.proposalPdf {
+  width: 16.4vw;
+  height: 3.64vw;
+  background-color: #eeeeee;
+  border-radius: 0.32vw;
+  margin-bottom: 2%;
+}
+.proposalPdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3.38vw;
+  margin-top: 1.3vw;
+}
+.proposalPdf img {
+  height: 2.34vw;
+}
+.proposalPdf p {
+  font-weight: 400;
+  font-size: 0.911vw;
+  color: var(--nero-color);
+  margin-left: 0.65vw;
+}
+.campaignInfoBtns {
+  display: flex;
+  align-items: center;
+  margin-left: 3.38vw;
+  margin-top: 4.4vw;
+}
+.campaignInfoBtns div {
+  width: 13.28vw;
+  height: 3.51vw;
+  border-radius: 0.32vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.91vw;
+  color: var(--white-color);
+  margin-bottom: 3%;
+}
+.infoBtn1 {
+  background-color: var(--redLight-color);
+  margin-right: 0.78vw;
+  cursor: pointer;
+}
+.infoBtn2 {
+  background-color: var(--purple-color);
+  cursor: pointer;
+}

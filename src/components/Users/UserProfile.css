@@ -1,0 +1,174 @@
+.error {
+  font-size: 1.3vw;
+  color: var(--red-color);
+  text-align: center;
+}
+.dataUser {
+  width: 80%;
+}
+.userProfileContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3.38vw;
+}
+.userProfilePicture {
+  width: 11vw;
+  /* height: 11vw; */
+  border-radius: 0.97vw;
+  margin: 0;
+  padding: 0;
+}
+.userProfilePicture img {
+  width: 100%;
+  border-radius: 0.97vw;
+}
+.alignUserProfile {
+  display: flex;
+  height: 2.604vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2.083vw;
+  /* padding-top: 100px; */
+}
+.userName {
+  display: flex;
+  align-items: center;
+}
+.userProfileName {
+  font-weight: 400;
+  font-size: 1.5625vw;
+  margin-right: 0.78vw;
+  color: var(--black-color);
+}
+.activeIcon {
+  width: 5.27vw;
+  height: 1.69vw;
+  padding: 0.26vw 1.3vw;
+  background-color: var(--green-color);
+  border-radius: 0.32vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeIcon p {
+  color: var(--white-color);
+  font-size: 0.91vw;
+  font-weight: 400;
+}
+.userActionBtns {
+  display: flex;
+  flex-direction: row;
+}
+.unsuspend {
+  background-color: #57a471 !important;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  width: 7.74vw !important;
+}
+.userActionBtn {
+  width: 6.64vw;
+  height: 2.47vw;
+  box-shadow: 0 1.1vw 0.84vw rgba(0, 0, 0, 0.05);
+  border-radius: 0.32vw;
+  padding: 0.65vw;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.97vw;
+  cursor: pointer;
+}
+.userActionBtn p {
+  font-weight: 300;
+  font-size: 0.91vw;
+  margin-left: 0.91vw;
+}
+.binIcon {
+  width: 1.04vw;
+}
+.disableIcon {
+  width: 0.71vw;
+}
+/* Info tab */
+.infoTabDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoTabDate p {
+  font-weight: 300;
+  font-size: 1.04vw;
+  color: var(--black-color);
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
+}
+.infoTabPadding {
+  margin: 0 2.083vw;
+}
+/* More options */
+.moreOptionsAlign {
+  display: flex;
+  margin-left: 3.38vw;
+  justify-content: space-between;
+  width: 18vw;
+}
+.moreOptions {
+  width: 4.427vw;
+  height: 4.427vw;
+  box-shadow: 0px 0.846vw 2.343vw rgba(0, 0, 0, 0.03);
+  border-radius: 0.65vw;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.13vw solid var(--white-color);
+}
+.activee {
+  border: 0.13vw solid var(--purple-color);
+}
+
+.moreOptions:hover {
+  border-color: var(--purple-color);
+}
+.moreOptions img {
+  width: 1.36vw;
+  margin: 0;
+  padding: 0;
+}
+.parentContainer p {
+  /* font-family: "Lexend"; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.91vw;
+  color: var(--black-color);
+  opacity: 0.5;
+}
+.parentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+/* .warningNumbers {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brightRed-color);
+}
+.warningNumbers p {
+  color: var(--white-color);
+  font-weight: 300;
+  font-size: 11px;
+
+  margin: 0;
+  padding: 0;
+} */
+.campaignsContainer {
+  margin-top: 2.01vw;
+}

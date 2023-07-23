@@ -1,0 +1,100 @@
+.blur {
+  filter: blur(2px);
+}
+.skillHeader {
+  display: flex;
+  align-items: center;
+}
+.skill_add_btn {
+  cursor: pointer;
+}
+.skillSearch {
+  margin-left: 3.38vw;
+  margin-bottom: 40px;
+}
+.skillsTable {
+  width: 95%;
+  margin-left: 3.38vw;
+  /* filter: blur(2px); */
+}
+.skillsTable th {
+  color: var(--nero-color);
+  font-weight: 400;
+  font-size: 1.17vw;
+}
+.skillName {
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: var(--nero-color);
+}
+.skillName p {
+  margin-right: -7.81vw;
+}
+.skillDate {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+}
+.totalFreelancers {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: var(--purple-color);
+}
+.skillsBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillDeleteBtn {
+  width: 4.36vw;
+  height: 1.75vw;
+  border-radius: 0.325vw;
+  background-color: #e20000;
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.52vw;
+  cursor: pointer;
+}
+.skillEditBtn {
+  width: 5.07vw;
+  height: 1.75vw;
+  border-radius: 0.325vw;
+  background-color: var(--offwhite-color);
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--nero-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.52vw;
+  cursor: pointer;
+}
+/* Add Skill */
+.skillClose {
+  width: 1.82vw;
+  height: 1.82vw;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.skillClose img {
+  width: 100%;
+  height: 100%;
+  margin-top: 2.92vw;
+}
+.add_skill {
+  width: 36.71vw;
+  height: 22.52vw;
+  border-radius: 1.56vw;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

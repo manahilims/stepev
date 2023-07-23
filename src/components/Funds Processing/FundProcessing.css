@@ -1,0 +1,174 @@
+.fundsTitle {
+  display: flex;
+  align-items: center;
+}
+
+/* Filter btn */
+.fundSearchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.55vw;
+  margin: 2.73vw 0;
+}
+
+.fundBtnFilter {
+  width: 12.36vw;
+  height: 3.9vw;
+  background: var(--nero-color);
+  box-shadow: 0px 0.26vw 1.23vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.65vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fundBtnFilter a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: var(--white-color);
+}
+.fundFilterImg {
+  width: 1.04vw;
+  margin-right: 0.65vw;
+}
+/* Table */
+.fundsTable {
+  width: 95%;
+  margin-left: 3.38vw;
+}
+.fundsTable th {
+  font-size: 1.17vw;
+  font-weight: 400;
+  color: var(--nero-color);
+}
+.fundsTable td {
+  /* margin-top: 10px; */
+  padding: 0.78vw 0;
+}
+.fundsTable .funds_name {
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: var(--nero-color);
+}
+.fundsTable .funds_price {
+  font-size: 1.04vw;
+  font-weight: 500;
+}
+.fundPriceAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.funds_name img {
+  width: 2.47vw;
+  height: 2.47vw;
+  margin-right: 0.911vw;
+  border-radius: 50%;
+}
+.alignFundProfile {
+  display: flex;
+  align-items: center;
+}
+.funds_price img {
+  width: 1.43vw;
+  height: 1.43vw;
+  margin-right: 0.39vw;
+}
+.fundsTable .funds_date {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--nero-color);
+  opacity: 0.5;
+}
+.funds_oneTime {
+  width: 5.46vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  border-radius: 0.32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--purple-color);
+  cursor: pointer;
+}
+.funds_oneTime p {
+  font-size: 0.846vw;
+  font-weight: 400;
+  color: var(--white-color);
+}
+.funds_job {
+  width: 3.32vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  border-radius: 0.32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--creamLight-color);
+}
+.funds_job p {
+  font-size: 0.84vw;
+  font-weight: 400;
+  color: var(--nero-color);
+}
+.funds_action_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.funds_action_btn {
+  margin: 0 0.19vw;
+}
+.funds_action_pause {
+  width: 4.16vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  border-radius: 0.32vw;
+  background-color: var(--creamLight-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.funds_action_pause P {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--nero-color);
+}
+.funds_action_release {
+  width: 4.81vw;
+  height: 1.75vw;
+  padding: 0.32vw 0.911vw;
+  border-radius: 0.32vw;
+  background-color: #57a471;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.funds_action_release p {
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: var(--white-color);
+}
+.funds_released {
+  width: 5.4vw;
+  height: 1.75vw;
+  border-radius: 0.32vw;
+  padding: 0.32vw 0.911vw;
+  background-color: var(--nero-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.funds_released p {
+  font-weight: 400;
+  font-size: 0.846vw;
+  color: var(--white-color);
+}
+.fundsUserId {
+  font-weight: 700;
+  font-size: 1.04vw;
+}
